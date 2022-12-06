@@ -1,0 +1,255 @@
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: -1;
+  position: relative;
+}
+
+.button{
+  font-weight: 500;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.btn-primary{
+  background: var(--azul);
+  border-color: var(--azul);
+}
+
+.capa-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(22, 68, 146, 0.7), rgba(102, 197, 209, 0.7));
+  z-index: -1;
+}
+
+.sobre1-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(22, 68, 146, 0.7), rgba(102, 197, 209, 0.7));
+  z-index: -1;
+}
+
+.contato-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(22, 68, 146, 0.7), rgba(102, 197, 209, 0.7));
+  z-index: -1;
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.capa-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding{
+
+  padding: 80px 0;;
+}
+
+.padding img{
+  width: 100%;
+}
+
+.divider{
+  height: 4px;
+  width: 70px;
+  background: linear-gradient(to right, var(--azulclarao), var(--azul));
+  margin: 16px auto;
+}
+
+a {
+  color: var(--preto);
+}
+
+a:hover{
+  color: var(--azul);
+}
+
+.image-wrapper img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+#noticias{
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+
+} 
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .card-body{
+  padding: 10px 20px;
+}
+
+.card .card-body p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .card-body .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+
+
+form .form-control {
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+form .form-control:focus {
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+}
+
+form input.form-control {
+  height: 54px;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+}
+
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+.popup-wrapper{
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+background: rgba(0, 0, 0, 0.5);
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.popup-content p{
+margin-top: 10px;
+}
+
+.popup1{
+position: absolute;
+top: 50%;
+left: 50%;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+transform: translate(-50%, -50%);
+max-width: 380px;
+width: 100%;
+border-radius: 24px;
+background-color: var(--marfim);
+padding: 30px 20px;
+}
+
+.popup-close1{
+position: absolute;
+top: 5px;
+right: 10px;
+cursor: pointer;
+}
+
+.popup2{
+position: absolute;
+top: 50%;
+left: 50%;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+transform: translate(-50%, -50%);
+max-width: 380px;
+width: 100%;
+border-radius: 24px;
+background-color: var(--marfim);
+padding: 30px 20px;
+}
+
+.popup-close2{
+position: absolute;
+top: 5px;
+right: 10px;
+cursor: pointer;
+}
+
+.popup3{
+position: absolute;
+top: 50%;
+left: 50%;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+transform: translate(-50%, -50%);
+max-width: 380px;
+width: 100%;
+border-radius: 24px;
+background-color: var(--marfim);
+padding: 30px 20px;
+}
+
+.popup-close3{
+position: absolute;
+top: 5px;
+right: 10px;
+cursor: pointer;
+}
+

@@ -1,0 +1,79 @@
+@media (min-width: 992px){
+    #barra_nav .nav-link{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+@media (max-width: 991.98px) {
+    #barra_nav .navbar_collapse{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px){
+    #servicos a.destaque .img-container{
+        height: 120px;
+    }
+    #servicos a.destaque .img-container img{
+        max-height: 120px;
+    }
+    #rodape ul {
+        padding-top: 30px;
+        justify-content: center;
+    }
+    #rodape .img_logo{
+        align-items: center; 
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 567px){
+    .card:not(:first-child){
+        display: none; 
+    }
+}
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+@media screen and (min-width: 568px){
+    .cards-wrapper{
+        display: flex; 
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}

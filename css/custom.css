@@ -1,0 +1,155 @@
+body, html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#barra_nav {
+    width: 100%;
+    background-color: var(--marfim);
+    transition: background ease-out 0.2s;
+}
+
+#barra_nav.active{
+    position: fixed;
+    background: var(--marfim);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+#barra_nav .navbar-collapse{
+    width: auto;
+}
+
+#barra_nav .nav-link {
+    padding-left: 0 ;
+    padding-right: 0 ;
+    color: var(--preto);
+    border-bottom: solid 2px transparent;
+}
+
+#barra_nav .nav-link:hover{
+    border-bottom: solid 2px var(--azul);
+    color: var(--azul);
+}   
+
+#servicos a.destaque{
+    display: block;
+    background: var(--bege);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover{
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+    transform: scale(1.05);
+}
+
+#servicos p{
+    color: var(--preto);
+}
+
+#servicos a.destaque .img-containar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.destaque .img-containar img{
+    max-height: 160px;
+}
+
+#noticias{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+#rodape{
+    background: var(--marfim);
+}
+
+#rodape ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rodape ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#rodape ul li:first-child {
+    margin-left: 0;
+}
+
+#rodape ul li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+#rodape ul li a:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+#rodape ul li img {
+    max-height: 20px;
+}
+
+#noticias .container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 100px 165px;
+}
+#PH{
+    height: 20px;
+    width: 300px;
+    border: 3px double #000000;
+}
+
+#PHs{
+    height: 20px;
+    width: 300px;
+}
+#SN{
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#popup1{
+    display: none;
+} 
+#popup2{
+    display: none;
+} 
+#popup3{
+    display: none;
+} 
+
+#SNB{
+    visibility: hidden;
+}
+#SNM{
+    visibility: hidden;
+}
+#SNA{
+    visibility: hidden;
+}
+  
